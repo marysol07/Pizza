@@ -10,7 +10,7 @@ label {
     line-height: 1.25rem;
     font-weight: 500;
     font-size: 14px;
-    color: #374151;
+    color: #511500;
 }
 
 input[type="text"], textarea, select{
@@ -20,7 +20,7 @@ input[type="text"], textarea, select{
     border-radius: 6px;
     padding: 8px 12px;
     margin-bottom: 12px;
-    color: #374151;
+    color: #511500;
 }
 fieldset{
     border: 1px solid #d1d5db;
@@ -33,7 +33,7 @@ fieldset{
 
 fieldset legend{
     font-size: 14px;
-    color: #374151;
+    color: #511500;
 }
 
 input[type="checkbox"]{
