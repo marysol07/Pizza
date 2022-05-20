@@ -66,31 +66,35 @@
                             <label for="wings">Buffalo Wings</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="whippedCream" name="whippedCream" value="whippedCream">
-                            <label for="whippedCream">Whipped Cream</label>
+                            <input type="checkbox" id="Bread" name="Others" value="bread">
+                            <label for="bread">Bread</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="caramel" name="caramel" value="caramel">
-                            <label for="caramel">Caramel Sauce</label>
+                            <input type="checkbox" id="Sauce" name="Others" value="Sause">
+                            <label for="sauce">Ranch and Buffalo</label>
                         </div>
+                    <div>
+                        <input type="checkbox" id="Soda" name="Others" value="Soda">
+                        <label for="soda">Soda</label>
+                    </div>
                     </fieldset>
                 </div>
             </div>
             <fieldset>
-                <legend>Cup or Cone:</legend>
+                <legend>Boxes:</legend>
                 <label for="container">Please Choose One</label>
                 <select name="container" id="container">
-                    <option value="cup">Plastic Cup</option>
-                    <option value="sugar">Sugar Cone</option>
-                    <option value="waffle">Waffle Cone</option>
-                    <option value="drippedWaffle">Chocolate Dripped Waffle Cone</option>
+                    <option value="mediums">Medium</option>
+                    <option value="smalls">Small</option>
+                    <option value="Larges">Large</option>
+                    <option value="Anys">Any</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Special:</legend>
                 <label for="SpecialRequests">Special Requests:</label>
                 <textarea id="SpecialRequests" name="SpecialRequests" row="4" cols="10"
-                          placeholder="Allergic to peanuts, substitutions, etc."></textarea>
+                          placeholder="Wants Soda, or other requests, etc."></textarea>
             </fieldset>
             <button type="button" onclick="alert('Free today for our Grand Opening!')">Calculate Cost</button>
             <button type="submit">Submit Order</button>
